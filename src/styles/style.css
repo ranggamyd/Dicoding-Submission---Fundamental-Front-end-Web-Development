@@ -1,0 +1,22 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.movie-thumbnail {
+    width: 100%;
+    height: 250px;
+    object-position: top;
+    object-fit: cover;
+}
+
+.movie-title {
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.movie-overview {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
